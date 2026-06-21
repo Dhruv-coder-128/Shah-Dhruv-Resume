@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom styles */
+::selection {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: #0F172A;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FAFAFA;
+}
+
+body {
+  color: #0F172A;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.glass-card-hover:hover {
+  border-color: #2563EB;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.resume-print-sheet {
+  display: none;
+}
+
+.resume-print-body {
+  color: #0F172A;
+}
+
+.print-section {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.print-card {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+@media print {
+
+  .print-hidden {
+    display: none !important;
+  }
+
+  .resume-print {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .resume-print section,
+  .resume-print article {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+}
