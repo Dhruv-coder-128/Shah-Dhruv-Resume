@@ -154,7 +154,7 @@ export const Skills: React.FC = () => {
                   transition={{ duration: 0.4 }}
                   className="group"
                 >
-                  <div className="px-5 py-3 rounded-xl border border-slate-200 bg-white hover:border-blue-600 hover:bg-blue-50 transition-all duration-300 cursor-pointer">
+                  <div className="px-5 py-3 rounded-xl border border-slate-700 bg-white hover:border-blue-500 hover:bg-blue-50 transition-all duration-300 cursor-pointer">
                     <span className="text-sm font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
                       {skill.name}
                     </span>

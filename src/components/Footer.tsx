@@ -29,11 +29,8 @@ export const Footer: React.FC = () => {
 
         {/* Center: Quote */}
         <div className="text-center">
-          <p className="text-xs italic text-slate-600">
-            "Simplicity is the ultimate sophistication."
-          </p>
-          <p className="text-[9px] font-mono text-slate-500 uppercase tracking-widest mt-1">
-            — Leonardo da Vinci
+          <p className="text-xl font-bold text-blue-600 ">
+            "Code. Create. Improve. Repeat."
           </p>
         </div>
 
