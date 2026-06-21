@@ -152,7 +152,7 @@ const educationList: EducationItem[] = [
     degree: 'Higher Secondary Education (Class XII)',
     institution: 'Eklavya Public School',
     duration: '2023 - 2024',
-    score: 'Percentage: 86.17%',
+    score: 'PR: 86.17',
     highlights: [
       'Completed higher secondary education with strong academic performance',
       'Built a foundation in mathematics, computer science, and analytical thinking',
@@ -162,7 +162,7 @@ const educationList: EducationItem[] = [
     degree: 'Secondary Education (Class X)',
     institution: 'Noble High School',
     duration: '2021 - 2022',
-    score: 'Percentage: 83.48%',
+    score: 'PR: 83.48',
     highlights: [
       'Completed secondary education with consistent performance',
       'Developed core problem-solving and study habits',

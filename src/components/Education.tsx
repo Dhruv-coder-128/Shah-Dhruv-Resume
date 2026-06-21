@@ -41,7 +41,7 @@ export const Education: React.FC = () => {
       degree: 'Higher Secondary Education (Class XII)',
       institution: 'Eklavya Public School',
       duration: '2023 - 2024',
-      score: 'Percentage: 86.17%',
+      score: 'PR: 86.17',
       highlights: [
         'Completed Higher Secondary Education',
         'Built a strong base in mathematics, science, and computing',
@@ -58,7 +58,7 @@ export const Education: React.FC = () => {
       degree: 'Secondary Education (Class X)',
       institution: 'Noble High School',
       duration: '2021 - 2022',
-      score: 'Percentage: 83.48%',
+      score: 'PR: 83.48',
       highlights: [
         'Completed Secondary Education',
         'Developed a strong foundation in core subjects',

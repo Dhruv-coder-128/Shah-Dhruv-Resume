@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
               {recruiterData ? (
                 <span>Exclusive Portfolio for {recruiterData.company}</span>
               ) : (
-                <span>University Gold Medalist • Full Stack Developer</span>
+                <span>Full Stack Developer</span>
               )}
             </span>
           </motion.div>
