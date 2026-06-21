@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
             <ArrowUp size={12} className="group-hover:-translate-y-1 transition-transform" />
           </button>
           <p className="text-[9px] font-mono text-slate-500 mt-1 uppercase tracking-widest">
-            Designed in California • Built with Care
+            Designed and Built by Dhruv Shah.
           </p>
         </div>
 

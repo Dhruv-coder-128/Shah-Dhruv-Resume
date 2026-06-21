@@ -113,26 +113,27 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
           className="lg:col-span-5 flex justify-center items-center relative order-1 lg:order-2"
         >
           {/* Profile Image */}
-          <div className="relative">
-            <img
-              src="/dhruv.jpeg"
-              alt="Dhruv Shah"
-              className="
-    w-[280px]
-    h-[280px]
+          <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
+                    <img
+                      src="/dhruv.jpeg"
+                      alt="Dhruv Shah"
+                      className="
+    w-[80vw]
+    max-w-[280px]
+    aspect-square
     sm:w-[340px]
-    sm:h-[340px]
+    sm:max-w-[340px]
     md:w-[400px]
-    md:h-[400px]
+    md:max-w-[400px]
     lg:w-[450px]
-    lg:h-[450px]
+    lg:max-w-[450px]
     rounded-full
     object-cover
     border-4
     border-white
     shadow-xl
   "
-            />
+                    />
           </div>
         </motion.div>
       </div>

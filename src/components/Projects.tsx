@@ -422,7 +422,7 @@ export const Projects: React.FC = () => {
                 </button>
               </div>
 
-              <div className="max-h-[85vh] overflow-y-auto p-6 md:p-8">
+              <div className="max-h-[60vh] overflow-y-auto p-6 md:p-6">
                 <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
                   <div className="space-y-6">
                     <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-100">

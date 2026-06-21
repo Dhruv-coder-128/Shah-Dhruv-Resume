@@ -205,9 +205,9 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, recru
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ duration: 0.35, ease: 'easeOut' }}
-            className="relative w-full max-w-5xl bg-white border border-slate-200 rounded-3xl shadow-2xl overflow-hidden z-10 my-8"
+            className="relative w-full max-w-5xl bg-white border border-slate-200 rounded-3xl shadow-2xl z-10 my-8 flex flex-col max-h-[95vh]"
           >
-            <div className="flex items-center justify-between px-6 py-4 border-b border-slate-200 bg-slate-50 print:hidden">
+            <div className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 border-b border-slate-200 bg-slate-50">
               <div className="flex items-center gap-2 min-w-0">
                 <span className="w-3 h-3 rounded-full bg-red-500" />
                 <span className="w-3 h-3 rounded-full bg-yellow-500" />
@@ -234,7 +234,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose, recru
               </div>
             </div>
 
-            <div className="p-8 md:p-12 max-h-[80vh] overflow-y-auto bg-white text-slate-900 print:max-h-full print:p-0 print:overflow-visible font-sans">
+            <div className="p-8 md:p-12 h-[calc(100vh-100px)] overflow-y-auto bg-white text-slate-900">
               
         
 
