@@ -286,21 +286,21 @@ export const Projects: React.FC = () => {
                 className="group rounded-3xl border border-slate-200 bg-white p-5 md:p-6 shadow-sm hover:shadow-xl hover:shadow-slate-200/60 transition-all duration-300 flex flex-col"
               >
                 <div className="mb-5 overflow-hidden rounded-2xl border border-slate-200 bg-slate-100">
-                  {project.image ? (
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="h-56 w-full object-cover object-center transition-transform duration-500 group-hover:scale-[1.02]"
-                    />
-                  ) : (
-                    <div className="flex h-56 items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-400">
-                      <div className="flex flex-col items-center gap-2">
-                        <Layers3 size={30} />
-                        <span className="text-xs font-mono uppercase tracking-widest">Screenshot</span>
+                    {project.image ? (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full aspect-video object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+                      />
+                    ) : (
+                      <div className="flex aspect-video items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-400">
+                        <div className="flex flex-col items-center gap-2">
+                          <Layers3 size={30} />
+                          <span className="text-xs font-mono uppercase tracking-widest">Screenshot</span>
+                        </div>
                       </div>
-                    </div>
-                  )}
-                </div>
+                    )}
+                  </div>
 
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <div>
@@ -430,10 +430,10 @@ export const Projects: React.FC = () => {
                         <img
                           src={selectedProject.image}
                           alt={selectedProject.title}
-                          className="h-72 w-full object-cover object-center"
+                          className="w-full aspect-video object-contain"
                         />
                       ) : (
-                        <div className="flex h-72 items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-400">
+                        <div className="flex aspect-video items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-400">
                           <Layers3 size={34} />
                         </div>
                       )}
