@@ -131,7 +131,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
       </div>
 
       {/* Down Arrow / Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 cursor-pointer">
+      {/* <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1.5 cursor-pointer">
         <span className="text-[10px] font-mono tracking-widest text-slate-500 uppercase">Scroll to Explore</span>
         <motion.div
           animate={{ y: [0, 6, 0] }}
@@ -140,7 +140,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
         >
           <ArrowDown size={14} />
         </motion.div>
-      </div>
+      </div> */}
     </section>
   );
 };
