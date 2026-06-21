@@ -110,7 +110,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="lg:col-span-5 flex justify-center items-center relative"
+          className="lg:col-span-5 flex justify-center items-center relative order-1 lg:order-2"
         >
           {/* Profile Image */}
           <div className="relative">
@@ -118,13 +118,20 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume, recruiterData }) => {
               src="/dhruv.jpeg"
               alt="Dhruv Shah"
               className="
-                w-[450px]
-                h-[450px]
-                rounded-full
-                border-4
-                border-white
-                shadow-xl
-              "
+    w-[280px]
+    h-[280px]
+    sm:w-[340px]
+    sm:h-[340px]
+    md:w-[400px]
+    md:h-[400px]
+    lg:w-[450px]
+    lg:h-[450px]
+    rounded-full
+    object-cover
+    border-4
+    border-white
+    shadow-xl
+  "
             />
           </div>
         </motion.div>

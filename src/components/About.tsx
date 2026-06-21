@@ -41,7 +41,7 @@ export const About: React.FC<AboutProps> = ({ onOpenResume, recruiterData }) => 
         
         {/* Section Header */}
         <div className="mb-16">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -50,7 +50,7 @@ export const About: React.FC<AboutProps> = ({ onOpenResume, recruiterData }) => 
           >
             <Sparkles size={12} />
             The Artisan
-          </motion.div>
+          </motion.div> */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
