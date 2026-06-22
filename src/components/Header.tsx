@@ -125,14 +125,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenResume, recruiterData }) =
                   {link.name}
                 </a>
               ))}
-              <a
-                href="#recruiter"
-                onClick={() => setIsOpen(false)}
-                className="flex items-center gap-2 text-sm font-mono tracking-widest uppercase text-blue-600 hover:text-blue-700 transition-colors"
-              >
-                <Briefcase size={14} />
-                Recruiter Hub
-              </a>
+              
               <div className="h-[1px] bg-slate-200 my-2" />
               {recruiterData && (
                 <div className="text-left py-1">
