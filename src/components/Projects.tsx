@@ -50,7 +50,32 @@ const projects: Project[] = [
       'Supabase powers the backend data layer for structured content.',
     ],
     github: 'YOUR_GITHUB_LINK',
-    live: 'YOUR_LIVE_LINK',
+    live: 'https://f1-2026-grid-mcs1.vercel.app/',
+  },
+  {
+    id: 'simba-intel',
+    title: 'Simba Intel',
+    subtitle: 'Virtual AI Assistant',
+    category: 'ai',
+    image: '/projects/simba-intel.png',
+    tags: ['Python', 'Django', 'Bootstrap', 'JavaScript', 'SQLite', 'CSS'],
+    metrics: [
+      { label: 'Stack', value: 'Django' },
+      { label: 'Models', value: 'Multiple' },
+      { label: 'Status', value: 'Completed' },
+    ],
+    shortDesc:
+      'A virtual AI assistant platform with multiple model support for flexible conversations and productivity workflows.',
+    longDesc:
+      'Simba Intel is designed as an AI assistant platform with support for multiple models in one interface. The project focuses on a clean user experience, flexible model usage, and a practical backend structure.',
+    architecture: [
+      'Python and Django provide the backend foundation.',
+      'SQLite stores lightweight structured application data.',
+      'Bootstrap creates a responsive UI layout.',
+      'JavaScript handles interface interactions and model switching.',
+    ],
+    github: 'YOUR_GITHUB_LINK',
+    live: 'https://simba-intel.onrender.com/',
   },
   {
     id: 'cars24x7',
@@ -98,31 +123,6 @@ const projects: Project[] = [
       'Tailwind CSS keeps the UI fast to style and consistent.',
       'SQL Workbench is used to manage and inspect the database layer.',
       'JavaScript handles interactivity and client-side behavior.',
-    ],
-    github: 'YOUR_GITHUB_LINK',
-    live: 'YOUR_LIVE_LINK',
-  },
-  {
-    id: 'simba-intel',
-    title: 'Simba Intel',
-    subtitle: 'Virtual AI Assistant',
-    category: 'ai',
-    image: '/projects/simba-intel.png',
-    tags: ['Python', 'Django', 'Bootstrap', 'JavaScript', 'SQLite', 'CSS'],
-    metrics: [
-      { label: 'Stack', value: 'Django' },
-      { label: 'Models', value: 'Multiple' },
-      { label: 'Status', value: 'Completed' },
-    ],
-    shortDesc:
-      'A virtual AI assistant platform with multiple model support for flexible conversations and productivity workflows.',
-    longDesc:
-      'Simba Intel is designed as an AI assistant platform with support for multiple models in one interface. The project focuses on a clean user experience, flexible model usage, and a practical backend structure.',
-    architecture: [
-      'Python and Django provide the backend foundation.',
-      'SQLite stores lightweight structured application data.',
-      'Bootstrap creates a responsive UI layout.',
-      'JavaScript handles interface interactions and model switching.',
     ],
     github: 'YOUR_GITHUB_LINK',
     live: 'YOUR_LIVE_LINK',
