@@ -30,7 +30,7 @@ export const Contact: React.FC = () => {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('dhruvshah@example.com');
+    navigator.clipboard.writeText('dushah2007@gmail.com');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2000);
   };
@@ -99,7 +99,7 @@ export const Contact: React.FC = () => {
                     </div>
                     <div className="min-w-0">
                       <p className="text-[10px] font-mono text-slate-500 uppercase">Email Address</p>
-                      <p className="text-xs md:text-sm font-bold text-slate-900 truncate">dhruvshah@example.com</p>
+                      <p className="text-xs md:text-sm font-bold text-slate-900 truncate">dushah2007@gmail.com</p>
                     </div>
                   </div>
                   <button
