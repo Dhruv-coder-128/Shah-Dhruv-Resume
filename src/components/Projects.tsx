@@ -362,16 +362,21 @@ export const Projects: React.FC = () => {
                     )}
 
                     {project.live && project.live !== 'YOUR_LIVE_LINK' && (
-                      <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-600 transition-colors hover:border-blue-200 hover:text-blue-600"
-                        aria-label={`${project.title} Live Demo`}
-                      >
-                        <ExternalLink size={15} />
-                      </a>
-                    )}
+  <a
+    href={project.live}
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 rounded-full bg-red-600 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white transition-all duration-300 hover:bg-red-700 hover:scale-105 shadow-lg shadow-red-500/30"
+    aria-label={`${project.title} Live Demo`}
+  >
+    <span className="relative flex h-2 w-2">
+      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+      <span className="relative inline-flex h-2 w-2 rounded-full bg-white"></span>
+    </span>
+
+    LIVE
+  </a>
+)}
                   </div>
                 </div>
               </motion.article>
