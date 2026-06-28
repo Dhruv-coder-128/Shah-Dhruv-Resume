@@ -49,7 +49,7 @@ const projects: Project[] = [
       'Tailwind CSS handles the responsive styling and visual consistency.',
       'Supabase powers the backend data layer for structured content.',
     ],
-    github: 'YOUR_GITHUB_LINK',
+    github: 'https://github.com/Dhruv-coder-128/f1-2026-grid',
     live: 'https://f1-2026-grid-mcs1.vercel.app/',
   },
   {
@@ -74,7 +74,7 @@ const projects: Project[] = [
       'Bootstrap creates a responsive UI layout.',
       'JavaScript handles interface interactions and model switching.',
     ],
-    github: 'YOUR_GITHUB_LINK',
+    github: 'https://github.com/Dhruv-coder-128/Simba_Intel',
     live: 'https://simba-intel.onrender.com/',
   },
   {
