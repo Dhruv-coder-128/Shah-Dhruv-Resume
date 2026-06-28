@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Check, Copy, Linkedin, Github, Twitter, MessageSquare, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Check, Copy, Linkedin, Github, MessageSquare} from 'lucide-react';
 
 export const Contact: React.FC = () => {
   const [name, setName] = useState('');
@@ -161,13 +161,13 @@ export const Contact: React.FC = () => {
                   >
                     <Github size={18} />
                   </a>
-                  <a
+                  {/* <a
                     href="https://www.instagram.com/_dhruv_444_/"
                     target="_blank"
                     className="w-11 h-11 rounded-xl bg-white border border-slate-200 hover:border-blue-400 text-slate-600 hover:text-blue-600 flex items-center justify-center transition-all cursor-pointer"
                   >
                     <Instagram size={18} />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
