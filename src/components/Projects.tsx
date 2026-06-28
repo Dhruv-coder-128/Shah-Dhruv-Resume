@@ -127,31 +127,31 @@ const projects: Project[] = [
     github: 'YOUR_GITHUB_LINK',
     live: 'YOUR_LIVE_LINK',
   },
-  {
-    id: 'python-browser',
-    title: 'Python Browser',
-    subtitle: 'Custom Desktop Browser',
-    category: 'desktop',
-    image: '/projects/python-browser.png',
-    tags: ['Python'],
-    metrics: [
-      { label: 'Stack', value: 'Python' },
-      { label: 'Type', value: 'Desktop App' },
-      { label: 'Status', value: 'Completed' },
-    ],
-    shortDesc:
-      'A lightweight browser created in Python to explore desktop application development and GUI programming.',
-    longDesc:
-      'Python Browser is a desktop application built in Python as a learning project around browser behavior, application structure, and GUI-based software development.',
-    architecture: [
-      'Python powers the desktop application logic.',
-      'The browser UI is built around a simple GUI layout.',
-      'Navigation and browsing features are implemented in a lightweight way.',
-      'The project focuses on learning desktop application fundamentals.',
-    ],
-    github: 'YOUR_GITHUB_LINK',
-    live: 'YOUR_LIVE_LINK',
-  },
+  // {
+  //   id: 'python-browser',
+  //   title: 'Python Browser',
+  //   subtitle: 'Custom Desktop Browser',
+  //   category: 'desktop',
+  //   image: '/projects/python-browser.png',
+  //   tags: ['Python'],
+  //   metrics: [
+  //     { label: 'Stack', value: 'Python' },
+  //     { label: 'Type', value: 'Desktop App' },
+  //     { label: 'Status', value: 'Completed' },
+  //   ],
+  //   shortDesc:
+  //     'A lightweight browser created in Python to explore desktop application development and GUI programming.',
+  //   longDesc:
+  //     'Python Browser is a desktop application built in Python as a learning project around browser behavior, application structure, and GUI-based software development.',
+  //   architecture: [
+  //     'Python powers the desktop application logic.',
+  //     'The browser UI is built around a simple GUI layout.',
+  //     'Navigation and browsing features are implemented in a lightweight way.',
+  //     'The project focuses on learning desktop application fundamentals.',
+  //   ],
+  //   github: 'YOUR_GITHUB_LINK',
+  //   live: 'YOUR_LIVE_LINK',
+  // },
   {
     id: 'wandercraft',
     title: 'WanderCraft',
